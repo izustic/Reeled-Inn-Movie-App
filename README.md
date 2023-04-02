@@ -78,3 +78,4 @@ IMPLEMENT AUTHORIZATION AND AUTHENTICATION: PROTECT ALL ROUTES. ONLY THE LOGGED-
 - Test for a PUT request
 - Test for a DELETE request
 - Test to return proper HTTP status codes
+# Reeled-Inn-Movie-App
