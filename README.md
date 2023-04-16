@@ -57,9 +57,9 @@ I used input validation to ensure that users follow this format when creating mo
 
 I have also implemented a frontend that includes the following:
 
-A page to display all Movie Listings (title, image, description, and price should display).
-An admin/dashboard area to add, edit, and delete Movies (users can only edit and delete Movies created by them).
-A Login Page and Sign Up Page.
+1. A page to display all Movie Listings (title, image, description, and price should display).
+2. An admin/dashboard area to add, edit, and delete Movies (users can only edit and delete Movies created by them).
+3. A Login Page and Sign Up Page.
 
 Finally, I have written tests to cover the application using Jest/supertest. The tests cover the following:
 
