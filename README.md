@@ -24,7 +24,7 @@ To complete this project, I have created an application that performs the follow
 4. A DELETE request that removes a particular data from the database using the ID.
 
 The data format example for users and the Movies added/created by the user are shown below:
-
+```
 [
 
  {
@@ -51,6 +51,8 @@ The data format example for users and the Movies added/created by the user are s
    }
    ......
 ]
+
+```
 I used input validation to ensure that users follow this format when creating movies.
 
 I have also implemented a frontend that includes the following:
