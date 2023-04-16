@@ -8,9 +8,10 @@ Hello, I am the developer of Reeled-Inn-Movie-App. This is a basic Express appli
 
 This project required that I implement an authorization and authentication system that protects all routes. Only logged-in users can perform the following operations:
 
-Add a Movie.
-Edit a Movie.
-Delete a Movie.
+. Add a Movie.
+. Edit a Movie.
+. Delete a Movie.
+
 Note that users that are not authenticated can browse through Movies on the app.
 
 # Implementation
