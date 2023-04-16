@@ -1,10 +1,10 @@
 # Reeled-Inn-Movie-App
 
-# Introduction
+## Introduction
 
 Hello, I am the developer of Reeled-Inn-Movie-App. This is a basic Express application that makes a CRUD operation using SQLite database. In this project, I built a Movie Listing Application that allows users to view and manage their Movies. The application includes an authentication and authorization system to ensure that only authorized users can perform CRUD operations.
 
-# Requirements
+## Requirements
 
 This project required that I implement an authorization and authentication system that protects all routes. Only logged-in users can perform the following operations:
 
@@ -14,14 +14,14 @@ This project required that I implement an authorization and authentication syste
 
 Note that users that are not authenticated can browse through Movies on the app.
 
-# Implementation
+## Implementation
 
 To complete this project, I have created an application that performs the following:
 
-A GET request that returns all the data in the database.
-A POST request that adds data to the database.
-A PUT request that updates fields of a particular data using the ID in the database.
-A DELETE request that removes a particular data from the database using the ID.
+1. A GET request that returns all the data in the database.
+2. A POST request that adds data to the database.
+3. A PUT request that updates fields of a particular data using the ID in the database.
+4. A DELETE request that removes a particular data from the database using the ID.
 
 The data format example for users and the Movies added/created by the user are shown below:
 
@@ -61,12 +61,12 @@ A Login Page and Sign Up Page.
 
 Finally, I have written tests to cover the application using Jest/supertest. The tests cover the following:
 
-A test for a GET request.
-A test for a POST request.
-A test for a PUT request.
-A test for a DELETE request.
-A test to return proper HTTP status codes.
+1. A test for a GET request.
+2. A test for a POST request.
+3. A test for a PUT request.
+4. A test for a DELETE request.
+5. A test to return proper HTTP status codes.
 
-# Hosting
+## Hosting
 
 This application is live on Render: https://reeledinn.onrender.com/
