@@ -1,38 +1,29 @@
-# EXPRESS
+# Reeled-Inn-Movie-App
 
-### Setup
+# Introduction
 
-1. Use and setup the project with `yarn`.
-2. Convert the project to Typescript.
-3. Initialize tsconfig.
-4. Create .gitignore file to ignore the node_modules
-## Problem Description:
+Hello, I am the developer of Reeled-Inn-Movie-App. This is a basic Express application that makes a CRUD operation using SQLite database. In this project, I built a Movie Listing Application that allows users to view and manage their Movies. The application includes an authentication and authorization system to ensure that only authorized users can perform CRUD operations.
 
-Create A basic Express application, that makes a CRUD operation (create, read, update, delete) using SQLite database, document and publish your endpoints using postman.
-In this project, you’ll build a basic CRUD (Create, Read, Update, Delete) for an Movie Listing Application
+# Requirements
 
-## Requirements:
+This project required that I implement an authorization and authentication system that protects all routes. Only logged-in users can perform the following operations:
 
-IMPLEMENT AUTHORIZATION AND AUTHENTICATION: PROTECT ALL ROUTES. ONLY THE LOGGED-IN USERS CAN PERFORM THE FOLLOWING OPERATIONS
+Add a Movie.
+Edit a Movie.
+Delete a Movie.
+Note that users that are not authenticated can browse through Movies on the app.
 
-- You can add a Movies.
-- You can edit Movies.
-- You can delete a Movies.
+# Implementation
 
-## NOTE
-- Users that are not authenticated can browse through  Movies on the app
+To complete this project, I have created an application that performs the following:
 
-## How will I complete this project?
+A GET request that returns all the data in the database.
+A POST request that adds data to the database.
+A PUT request that updates fields of a particular data using the ID in the database.
+A DELETE request that removes a particular data from the database using the ID.
 
-- Your aplication should be able to perform.
-  - `GET` Request which returns all the data in your database
-  - `POST` Request which adds data to your database
-  - `PUT` Request which updates fields of a particular data using the id in database
-  - `DELETE` Request which removes a particular data from your database using the id
-- Host your application on Heroku.
-- Data format example: This show the model for users and the Movies added/created by the user
+The data format example for users and the Movies added/created by the user are shown below:
 
-```
 [
 
  {
@@ -59,23 +50,22 @@ IMPLEMENT AUTHORIZATION AND AUTHENTICATION: PROTECT ALL ROUTES. ONLY THE LOGGED-
    }
    ......
 ]
-```
+I used input validation to ensure that users follow this format when creating movies.
 
-## FRONTEND
+I have also implemented a frontend that includes the following:
 
-- Page to display all Movie Listings(title, image including description and price should display)
-- Implement an admin/dashboard area to add, edit and delete ( User can only edit and delete Movies created by them)
-- Create a Login Page and Sign Up Page
+A page to display all Movie Listings (title, image, description, and price should display).
+An admin/dashboard area to add, edit, and delete Movies (users can only edit and delete Movies created by them).
+A Login Page and Sign Up Page.
 
-## Test coverage
+Finally, I have written tests to cover the application using Jest/supertest. The tests cover the following:
 
-- Make sure you write test to cover your application using Jest/supertest
+A test for a GET request.
+A test for a POST request.
+A test for a PUT request.
+A test for a DELETE request.
+A test to return proper HTTP status codes.
 
-### Test
+# Hosting
 
-- Test for a GET request
-- Test for a POST request
-- Test for a PUT request
-- Test for a DELETE request
-- Test to return proper HTTP status codes
-# Reeled-Inn-Movie-App
+This application is live on Render: https://reeledinn.onrender.com/
